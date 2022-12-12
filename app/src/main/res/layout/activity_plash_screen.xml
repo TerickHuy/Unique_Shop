@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/estate_splash_img"
+    android:background="@drawable/unique_splash_img"
     tools:context=".PlashScreen">
 
     <TextView
@@ -15,16 +15,16 @@
 
         android:layout_centerInParent="true"
         android:fontFamily="serif"
-        android:text="Estate"
+        android:text="Unique"
         android:textColor="#F6F6F6"
         android:textSize="50dp" />
 
     <ImageView
         android:id="@+id/homeImgId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/estate_100" />
+        android:src="@drawable/unique_100" />
 
 
     <TextView
@@ -32,6 +32,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/homeImgId"
         android:layout_centerInParent="true"
-        android:text="Bất động sản Việt Nam"
+        android:text="Clothing shop by Unique"
         android:textColor="#F6F6F6" />
 </RelativeLayout>
